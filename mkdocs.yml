@@ -1,41 +1,83 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
 
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
-
-use_directory_urls: False
+site_name: IHC 2026.2 · Grupo 08
+site_description: Checklist de Avaliação de Acessibilidade (WCAG) e Usabilidade (Heurísticas de Nielsen) aplicado ao Mercado Livre.
+site_url: https://UnB-IHC.github.io/IHC_2026.2_Grupo08/
+repo_url: https://github.com/UnB-IHC/IHC_2026.2_Grupo08
+repo_name: IHC_2026.2_Grupo08
+edit_uri: edit/main/docs/
+copyright: Universidade de Brasília (UnB) · Interação Humano-Computador · 2026.2 · Grupo 08
 
 nav:
-  - Início - VerificAAA: 'index.md'
-
-  - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
-
-  - Design:
-    - Design: 'design/design.md'
-  
-  - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
-
-  - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
-
-  - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+  - Início: index.md
+  - Metodologia: metodologia.md
+  - Acessibilidade:
+    - Visão geral: acessibilidade/visao-geral.md
+    - 1. Perceptível: acessibilidade/percepivel.md
+    - 2. Operável: acessibilidade/operavel.md
+    - 3. Compreensível: acessibilidade/compreensivel.md
+    - 4. Robusto: acessibilidade/robusto.md
+    - 5. Processo e pessoas: acessibilidade/processo-e-pessoas.md
+    - 6. Boas práticas do Guia: acessibilidade/boas-praticas-guia.md
+  - Usabilidade (Nielsen):
+    - Heurísticas: usabilidade/heuristicas.md
+  - Resultados:
+    - Avaliação do Mercado Livre: resultados/mercado-livre.md
+  - Apoio:
+    - Ferramentas: apoio/ferramentas.md
+    - Gestão de Projetos: apoio/gestao-de-projetos.md
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  name: material
+  language: pt-BR
+  logo: imagens/logo.svg
+  favicon: imagens/logo.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Ativar modo escuro
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Ativar modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+
+plugins:
+  - search:
+      lang: pt
 
 markdown_extensions:
+  - admonition
+  - attr_list
   - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: ['.']
+      check_paths: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
-      custom_checkbox: false
+      custom_checkbox: true
       clickable_checkbox: true
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/checklist.js

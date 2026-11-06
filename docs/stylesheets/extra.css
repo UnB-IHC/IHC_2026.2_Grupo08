@@ -1,3 +1,184 @@
-.wy-side-nav-search .wy-dropdown>a img.logo, .wy-side-nav-search>a img.logo {
-    width: 50% !important;
+/* ==========================================================
+   Tema amarelo · inspirado na identidade do Mercado Livre
+   Amarelo #FFE600 · Azul #2D3277 · Azul de link #2968C8
+   ========================================================== */
+
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color: #FFE600;
+  --md-primary-fg-color--light: #FFF159;
+  --md-primary-fg-color--dark: #E6CF00;
+  --md-primary-bg-color: #2D3277;          /* texto sobre o amarelo (contraste ~9:1) */
+  --md-primary-bg-color--light: rgba(45, 50, 119, .72);
 }
+
+[data-md-color-scheme="default"] {
+  --md-accent-fg-color: #2968C8;
+  --md-accent-fg-color--transparent: rgba(41, 104, 200, .1);
+  --md-typeset-a-color: #2D3277;           /* links legíveis no fundo branco */
+  --md-typeset-color: #1f1f1f;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #FFF159;
+  --md-typeset-a-color: #FFE600;
+}
+
+/* Cabeçalho e abas: amarelo sólido com borda inferior sutil */
+.md-header,
+.md-tabs {
+  background-color: #FFE600;
+  color: #2D3277;
+}
+.md-header { box-shadow: none; }
+.md-tabs { border-bottom: 1px solid rgba(45, 50, 119, .18); }
+.md-tabs__link { opacity: .9; }
+.md-tabs__link--active,
+.md-tabs__link:hover { opacity: 1; font-weight: 700; }
+.md-tabs__item--active .md-tabs__link { text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg { height: 1.9rem; width: auto; }
+
+/* Campo de busca */
+.md-search__form { background-color: rgba(255, 255, 255, .65); }
+.md-search__form:hover { background-color: #fff; }
+.md-search__input,
+.md-search__input::placeholder,
+.md-search__icon { color: #2D3277; }
+
+/* Títulos */
+.md-typeset h1 {
+  color: #2D3277;
+  font-weight: 700;
+  border-bottom: 4px solid #FFE600;
+  padding-bottom: .35em;
+  margin-bottom: 1em;
+}
+[data-md-color-scheme="slate"] .md-typeset h1 { color: #FFE600; }
+.md-typeset h2 { font-weight: 700; margin-top: 2em; }
+
+/* Tabelas */
+.md-typeset table:not([class]) th {
+  background-color: #FFF59D;
+  color: #2D3277;
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: rgba(255, 230, 0, .16);
+  color: #FFE600;
+}
+
+/* Checklists: quadrado vazado = pendente, quadrado azul com marca = atendido */
+:root {
+  --md-tasklist-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5z"/></svg>');
+  --md-tasklist-icon--checked: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 17l-5-5 1.41-1.42L10 14.17l7.59-7.59L19 8m0-5H5c-1.11 0-2 .89-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.11-.89-2-2-2z"/></svg>');
+}
+.md-typeset .task-list-indicator::before { background-color: #2D3277; }
+.md-typeset [type="checkbox"]:checked + .task-list-indicator::before { background-color: #2D3277; }
+[data-md-color-scheme="slate"] .md-typeset .task-list-indicator::before,
+[data-md-color-scheme="slate"] .md-typeset [type="checkbox"]:checked + .task-list-indicator::before { background-color: #FFE600; }
+.md-typeset .task-list-item { transition: background-color .15s; }
+.md-typeset .task-list-item:hover { background-color: rgba(255, 230, 0, .22); border-radius: 4px; }
+
+/* Cartões da página inicial */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: .5rem;
+  border: .05rem solid rgba(45, 50, 119, .2);
+  border-top: .3rem solid #FFE600;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: #FFE600;
+  box-shadow: 0 .2rem .6rem rgba(45, 50, 119, .18);
+}
+
+/* Bloco de destaque (admonition "note") em amarelo */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: #E6CF00;
+}
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary { background-color: rgba(255, 230, 0, .25); }
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before { background-color: #2D3277; }
+
+/* Acessibilidade: foco bem visível (o projeto é sobre isso) */
+:focus-visible {
+  outline: 3px solid #2D3277;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+[data-md-color-scheme="slate"] :focus-visible { outline-color: #FFE600; }
+
+/* Respeita preferência por menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+/* Rodapé */
+/* Rodapé amarelo nos dois modos */
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-footer-bg-color: #FFE600;
+  --md-footer-bg-color--dark: #FFE600;
+  --md-footer-fg-color: #2D3277;
+  --md-footer-fg-color--light: rgba(45, 50, 119, .9);
+  --md-footer-fg-color--lighter: rgba(45, 50, 119, .85);
+}
+.md-footer,
+.md-footer-meta { background-color: #FFE600; }
+.md-footer__link:hover,
+.md-footer-meta a:hover { text-decoration: underline; }
+
+/* ---------- Checklist interativo ---------- */
+.md-typeset .fonte {
+  color: var(--md-default-fg-color--light);
+  font-size: .72rem;
+  line-height: 1.5;
+}
+.md-typeset .task-list-item { padding: .15rem .25rem; margin-bottom: .1rem; }
+
+.ck-bar {
+  margin: 0 0 1.5rem;
+  padding: .7rem .9rem;
+  background: var(--md-default-bg-color);
+  border: .05rem solid rgba(45, 50, 119, .25);
+  border-left: .3rem solid #FFE600;
+  border-radius: .3rem;
+}
+.ck-bar__top {
+  display: flex; flex-wrap: wrap; gap: .5rem 1rem;
+  align-items: center; justify-content: space-between;
+  margin-bottom: .45rem; font-size: .8rem;
+}
+.ck-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
+.ck-btn {
+  font: inherit; font-size: .72rem; font-weight: 600; cursor: pointer;
+  padding: .3rem .65rem; border-radius: .25rem;
+  color: #2D3277; background: #FFE600; border: .1rem solid #2D3277;
+}
+.ck-btn:hover { background: #FFF159; }
+.ck-btn[aria-pressed="true"] { background: #2D3277; color: #FFE600; }
+[data-md-color-scheme="slate"] .ck-btn { border-color: #FFE600; }
+[data-md-color-scheme="slate"] .ck-btn[aria-pressed="true"] { background: #FFE600; color: #2D3277; }
+
+.ck-progress {
+  width: 100%; height: .6rem; display: block;
+  appearance: none; -webkit-appearance: none; border: 0;
+  background: rgba(45, 50, 119, .15); border-radius: .3rem; overflow: hidden;
+}
+.ck-progress::-webkit-progress-bar { background: rgba(45, 50, 119, .15); }
+.ck-progress::-webkit-progress-value { background: #2D3277; transition: width .25s; }
+.ck-progress::-moz-progress-bar { background: #2D3277; }
+[data-md-color-scheme="slate"] .ck-progress::-webkit-progress-value { background: #FFE600; }
+[data-md-color-scheme="slate"] .ck-progress::-moz-progress-bar { background: #FFE600; }
+.ck-status { display: block; font-size: .72rem; }
+.ck-status:not(:empty) { margin-top: .3rem; }
+
+.ck-count {
+  margin-left: .6rem; padding: .05rem .5rem; vertical-align: middle;
+  font-size: .65rem; font-weight: 700; border-radius: 1rem;
+  background: rgba(45, 50, 119, .12); color: var(--md-default-fg-color);
+}
+.ck-count--ok { background: #FFE600; color: #2D3277; }
+
+.ck-only-pending li.task-list-item:has(input:checked) { display: none; }
