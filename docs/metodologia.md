@@ -1,11 +1,15 @@
 # Metodologia
 
-## Objeto de avaliação
+Como aplicar o checklist em qualquer projeto: um site, um aplicativo web ou uma tela específica.
 
-O objeto de estudo é o site do **Mercado Livre** ([mercadolivre.com.br](https://www.mercadolivre.com.br/)), avaliado nas versões desktop e mobile.
+## Passo a passo
 
-!!! note "Registre a data da avaliação"
-    Sites de e-commerce mudam com frequência. Anote a data, o navegador e o dispositivo usados em cada inspeção para que os resultados possam ser reproduzidos.
+1. **Defina o objeto de avaliação.** Anote o endereço, a versão (computador, celular ou ambos), a data, o navegador e o dispositivo. Sites mudam com frequência, e esse registro permite reproduzir os resultados.
+2. **Escolha os fluxos a inspecionar.** Veja as sugestões abaixo.
+3. **Percorra os checklists sozinho**, com as páginas abertas, e marque o que o site atende. As marcações ficam salvas no seu navegador.
+4. **Registre cada item sem marca** como um problema, seguindo o modelo de registro mais abaixo. O botão **Copiar pendentes** ajuda nessa etapa.
+5. **Consolide em grupo**, se houver mais de uma pessoa avaliando. Remova duplicados e chegue a uma severidade de consenso.
+6. **Proponha uma recomendação de melhoria** para cada problema.
 
 ## Fluxos inspecionados
 
@@ -32,7 +36,7 @@ Cada item de acessibilidade indica a heurística relacionada, e cada heurística
 ### Como aplicar
 
 1. Cada avaliador percorre os fluxos **sozinho**, com os checklists abertos, e marca o que o site atende.
-2. Cada item sem marca vira um registro na página de [Resultados](resultados/mercado-livre.md), seguindo o modelo abaixo. O botão **Copiar pendentes** de cada página ajuda nessa etapa.
+2. Cada item sem marca vira um registro na página de [Resultados](resultados/resultado.md), seguindo o modelo abaixo. O botão **Copiar pendentes** de cada página ajuda nessa etapa.
 3. O grupo se reúne, **consolida** os achados, remove duplicados e chega a uma severidade final de consenso.
 4. Para cada problema, o grupo propõe uma recomendação de melhoria.
 

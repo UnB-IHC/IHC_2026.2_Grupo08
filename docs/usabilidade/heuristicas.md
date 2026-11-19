@@ -1,7 +1,7 @@
 # Heurísticas de Nielsen
 
 !!! note "Como ler cada item"
-    Cada heurística traz o que verificar e a ligação com os critérios do WCAG e os itens da NBR, para que a inspeção de usabilidade e a de acessibilidade usem o mesmo roteiro. Marque o item quando o site **atende**; o que ficar sem marca é um possível problema para registrar em [Resultados](../resultados/mercado-livre.md). Sua marcação fica salva neste navegador.
+    Cada heurística traz o que verificar e a ligação com os critérios do WCAG e os itens da NBR, para que a inspeção de usabilidade e a de acessibilidade usem o mesmo roteiro. Marque o item quando o site **atende**; o que ficar sem marca é um possível problema para registrar em [Resultados](../resultados/resultado.md). Sua marcação fica salva neste navegador.
 
 ## H1. Visibilidade do status do sistema {#h1}
 

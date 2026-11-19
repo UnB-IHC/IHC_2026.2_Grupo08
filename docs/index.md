@@ -1,12 +1,12 @@
-# IHC 2026.2 · Grupo 08
+# IHC 2026.2 | Grupo 08
 
-Avaliação de **acessibilidade (WCAG)** e **usabilidade (Heurísticas de Nielsen)** do site do **Mercado Livre**, desenvolvida na disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB).
+Checklist de **acessibilidade (WCAG)** e **usabilidade (Heurísticas de Nielsen)** para avaliar sites e aplicações web, desenvolvido na disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB). Pode ser usado em qualquer projeto.
 
 ## Sobre o projeto
 
-Este site reúne os checklists que o grupo usa para inspecionar o Mercado Livre e o registro dos problemas encontrados, cada um com evidência, severidade e recomendação de melhoria.
+Este site reúne checklists **interativos**: você marca o que o seu site atende, acompanha o progresso e as marcações ficam salvas no seu navegador. O grupo também aplicou o checklist em um estudo de caso, com resultados fixos, na aba **Resultados**.
 
-O trabalho combina dois métodos de avaliação:
+O checklist combina dois métodos de avaliação:
 
 - **Inspeção de acessibilidade**, com base no WCAG 2.2 (níveis A, AA e AAA), na ABNT NBR 17225 e no Guia de Boas Práticas para Acessibilidade Digital (UK–Brasil).
 - **Avaliação heurística**, com base nas 10 heurísticas de usabilidade de Jakob Nielsen.
@@ -35,9 +35,9 @@ O trabalho combina dois métodos de avaliação:
 
 - :material-table-check: **Resultados**
 
-    Problemas encontrados no Mercado Livre, com severidade e recomendações.
+    Problemas encontrados com severidade e recomendações.
 
-    [Ver os resultados](resultados/mercado-livre.md)
+    [Ver os resultados](resultados/resultado.md)
 
 </div>
 
