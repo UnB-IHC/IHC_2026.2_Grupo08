@@ -45,14 +45,14 @@ O checklist combina dois métodos de avaliação:
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Tutzs"><img style="border-radius: 50%;" src="https://github.com/Tutzs.png" width="100" alt="Foto de perfil de Arthur"/><br /><sub><b>Arthur</b></sub></a></td>
     <td align="center"><a href="https://github.com/iiBrenda"><img style="border-radius: 50%;" src="https://github.com/iiBrenda.png" width="100" alt="Foto de perfil de Brenda Maria"/><br /><sub><b>Brenda Maria</b></sub></a></td>
     <td align="center"><a href="https://github.com/Eduard0803"><img style="border-radius: 50%;" src="https://github.com/Eduard0803.png" width="100" alt="Foto de perfil de Eduardo Belarmino"/><br /><sub><b>Eduardo Belarmino</b></sub></a></td>
     <td align="center"><a href="https://github.com/eduardoferre"><img style="border-radius: 50%;" src="https://github.com/eduardoferre.png" width="100" alt="Foto de perfil de Eduardo Ferreira"/><br /><sub><b>Eduardo Ferreira</b></sub></a></td>
+    <td align="center"><a href="https://github.com/flaviarebelato"><img style="border-radius: 50%;" src="https://github.com/flaviarebelato.png" width="100" alt="Foto de perfil de Flavia Rebelato"/><br /><sub><b>Flavia Rebelato</b></sub></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/flaviarebelato"><img style="border-radius: 50%;" src="https://github.com/flaviarebelato.png" width="100" alt="Foto de perfil de Flavia Rebelato"/><br /><sub><b>Flavia Rebelato</b></sub></a></td>
     <td align="center"><a href="https://github.com/Fortaah"><img style="border-radius: 50%;" src="https://github.com/Fortaah.png" width="100" alt="Foto de perfil de João Pedro"/><br /><sub><b>João Pedro</b></sub></a></td>
+    <td align="center"><a href="https://github.com/xLucasMelo"><img style="border-radius: 50%;" src="https://github.com/xLucasMelo.png" width="100" alt="Foto de perfil de Lucas Alves"/><br /><sub><b>Lucas Alves</b></sub></a></td>
     <td align="center"><a href="https://github.com/pedro123900"><img style="border-radius: 50%;" src="https://github.com/pedro123900.png" width="100" alt="Foto de perfil de Pedro Silva"/><br /><sub><b>Pedro Silva</b></sub></a></td>
     <td align="center"><a href="https://github.com/vitoraraujoooo"><img style="border-radius: 50%;" src="https://github.com/vitoraraujoooo.png" width="100" alt="Foto de perfil de Vitor Araújo"/><br /><sub><b>Vitor Araújo</b></sub></a></td>
   </tr>
