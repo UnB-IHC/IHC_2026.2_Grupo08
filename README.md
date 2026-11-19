@@ -1,21 +1,17 @@
 <div align="center">
 
-<!-- LOGO: substitua o arquivo docs/imagens/logo.svg (ou .png) pela logo do grupo -->
-<img src="docs/imagens/logo.svg" alt="Logo do projeto IHC 2026.2 Grupo 08" width="160">
-
-# IHC 2026.2 · Grupo 08
+# IHC 2026.2 | Grupo 08
 
 **Avaliação de acessibilidade e usabilidade do Mercado Livre**
 
-[![Site publicado](https://img.shields.io/badge/site-GitHub%20Pages-FFE600?style=for-the-badge&labelColor=2D3277)](https://SEU-USUARIO.github.io/IHC_2026.2_Grupo08/)
+[![Site publicado](https://img.shields.io/badge/site-GitHub%20Pages-FFE600?style=for-the-badge&labelColor=2D3277)](https://github.com/UnB-IHC/IHC_2026.2_Grupo08)
 [![MkDocs Material](https://img.shields.io/badge/MkDocs-Material-FFE600?style=for-the-badge&labelColor=2D3277)](https://squidfunk.github.io/mkdocs-material/)
 [![Licença MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-FFE600?style=for-the-badge&labelColor=2D3277)](LICENSE.md)
 
 </div>
 
----
 
-Repositório de documentação do projeto da disciplina de **Interação Humano-Computador (IHC) · 2026.2** da **Universidade de Brasília (UnB)**, contendo o **Checklist de Avaliação de Acessibilidade (WCAG)** e **Usabilidade (Heurísticas de Nielsen)** aplicado ao site do **Mercado Livre**.
+Repositório de documentação do projeto da disciplina de **Interação Humano-Computador (IHC) · 2026.2** da **Universidade de Brasília (UnB)**, contendo o **Checklist de Avaliação de Acessibilidade (WCAG)** e **Usabilidade (Heurísticas de Nielsen)** para avaliar qualquer site ou aplicação web.
 
 ## Sumário
 
@@ -29,12 +25,12 @@ Repositório de documentação do projeto da disciplina de **Interação Humano-
 
 ## Sobre o projeto
 
-O objetivo é analisar e avaliar o Mercado Livre sob duas perspectivas:
+O objetivo é oferecer um checklist para analisar e avaliar sites e aplicações web sob duas perspectivas:
 
 - **Acessibilidade:** inspeção com base no **WCAG 2.2**, na **ABNT NBR 17225** e no **Guia de Boas Práticas para Acessibilidade Digital** (UK–Brasil).
 - **Usabilidade:** avaliação heurística com as **10 heurísticas de Nielsen**.
 
-Os achados são registrados com evidência, severidade (escala de 0 a 4) e recomendação de melhoria. Tudo é publicado como um site de documentação feito com [MkDocs](https://www.mkdocs.org/) e o tema [Material](https://squidfunk.github.io/mkdocs-material/).
+Os problemas encontrados podem ser registrados com evidência, severidade (escala de 0 a 4) e recomendação de melhoria. Tudo é publicado como um site de documentação feito com [MkDocs](https://www.mkdocs.org/) e o tema [Material](https://squidfunk.github.io/mkdocs-material/).
 
 ## Conteúdo
 

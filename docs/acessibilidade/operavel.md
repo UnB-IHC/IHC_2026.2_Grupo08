@@ -1,7 +1,7 @@
 # 2. Operável
 
 !!! note "Como ler cada item"
-    Marque o item quando o site **atende**. O que fica sem marca é um possível problema para registrar em [Resultados](../resultados/mercado-livre.md). Os números entre colchetes remetem às **Referências Bibliográficas** no fim da página (critérios do WCAG 2.2) e o símbolo ★ indica critério novo do WCAG 2.2. Sua marcação fica salva neste navegador.
+    Marque o item quando o site **atende**. O que fica sem marca é um possível problema para registrar em [Resultados](../resultados/resultado.md). Os números entre colchetes remetem às **Referências Bibliográficas** no fim da página (critérios do WCAG 2.2) e o símbolo ★ indica critério novo do WCAG 2.2. Sua marcação fica salva neste navegador.
 
 A navegação e os componentes devem funcionar por diferentes formas de entrada, sem exigir uma habilidade específica.
 

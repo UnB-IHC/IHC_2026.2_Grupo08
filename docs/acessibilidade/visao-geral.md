@@ -34,11 +34,11 @@ Em cada página de checklist, o topo mostra:
 
 - **Progresso** da página, e o de cada seção ao lado do título.
 - **Mostrar só pendentes**, para focar no que ainda falta inspecionar.
-- **Copiar pendentes**, que copia a lista dos itens sem marca para colar nos [Resultados](../resultados/mercado-livre.md).
+- **Copiar pendentes**, que copia a lista dos itens sem marca para colar nos [Resultados](../resultados/resultado.md).
 - **Limpar marcações**, para recomeçar a página.
 
 !!! note "Onde ficam as marcações"
-    As marcações são salvas no **navegador de quem está usando**, não no repositório. Cada integrante vê só as próprias. O registro oficial dos problemas fica na página de [Resultados](../resultados/mercado-livre.md).
+    As marcações são salvas no **navegador de quem está usando**, não no repositório. Cada integrante vê só as próprias. O registro oficial dos problemas fica na página de [Resultados](../resultados/resultado.md).
 
 ## Ferramentas e leitura complementar
 

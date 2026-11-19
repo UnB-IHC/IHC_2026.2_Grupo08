@@ -1,4 +1,4 @@
-# Avaliação do Mercado Livre
+# Avaliação
 
 Registro dos problemas encontrados durante a inspeção. Preencha uma linha por problema, seguindo o [modelo de registro](../metodologia.md#modelo-de-registro-de-cada-problema) e a [escala de severidade](../metodologia.md#escala-de-severidade-de-nielsen).
 
@@ -27,7 +27,7 @@ Registro dos problemas encontrados durante a inspeção. Preencha uma linha por 
 
 ## Pontos positivos
 
-Registre também o que o Mercado Livre faz bem. Isso dá equilíbrio à análise.
+Registre também o que o está sendo avaliado faz bem. Isso dá equilíbrio à análise.
 
 - _preencher_
 

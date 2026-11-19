@@ -9,6 +9,7 @@ copyright: Universidade de Brasília (UnB) · Interação Humano-Computador · 2
 
 nav:
   - Início: index.md
+  - Inicio Pocket - Conceitos: conceitos.md
   - Metodologia: metodologia.md
   - Acessibilidade:
     - Visão geral: acessibilidade/visao-geral.md
@@ -21,7 +22,7 @@ nav:
   - Usabilidade (Nielsen):
     - Heurísticas: usabilidade/heuristicas.md
   - Resultados:
-    - Avaliação do Mercado Livre: resultados/mercado-livre.md
+    - Avaliação: resultados/resultado.md
   - Apoio:
     - Ferramentas: apoio/ferramentas.md
     - Gestão de Projetos: apoio/gestao-de-projetos.md
@@ -29,8 +30,6 @@ nav:
 theme:
   name: material
   language: pt-BR
-  logo: imagens/logo.svg
-  favicon: imagens/logo.svg
   palette:
     - scheme: default
       primary: custom
@@ -66,6 +65,8 @@ markdown_extensions:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.snippets:
       base_path: ['.']
       check_paths: true
